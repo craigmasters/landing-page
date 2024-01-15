@@ -1,0 +1,22 @@
+body {
+    display: flex;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+  a {
+    color: #666;
+    text-decoration: none;
+  }
