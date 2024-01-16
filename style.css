@@ -8,6 +8,7 @@ body {
     margin: 0 100px;  
     display: flex;
     flex-direction: column;
+    min-width: 750px;
 }
 
 .header {
@@ -41,10 +42,14 @@ ul {
     gap: 16px
   }
 
-  a {
+a {
     color: #E5E7EB;
     text-decoration: none;
   }
+
+a:hover {
+    color: red;
+}
 
 .main {
     background-color: #1F2937;
@@ -52,8 +57,6 @@ ul {
     height: 400px;
     display: flex;
     flex: 1;
-    justify-content: space-evenly;
-
 }
 
 .title {
@@ -63,7 +66,26 @@ ul {
     font-weight: bold;
     flex: 1 1 0;
     height: 30px;
+    justify-items: space-evenly;
+    display: flex;
 }
+
+button {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    background: #3882F6;
+    color: white;
+    width: 80px;
+    height: 20px;
+  }
+
+button:hover {
+    color: #3882F6;
+    background-color: white;
+}
+
 .subtext {
     font-size: 16px;
     font-weight: lighter;
@@ -80,3 +102,109 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+.information-header {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 48px
+}
+
+.information {
+    background-color: white;
+    padding-top: 32px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 5px;
+}
+
+.box {
+    background-color: white;
+    border: solid;
+    border-color: blue;
+    padding: 50px;
+    margin: 16px 16px 5px 16px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    max-width: 200px;
+  }
+
+.box:hover {
+    background-color: red;
+    border-color: black;
+}
+
+.subtext-container {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 48px;
+}
+
+.box-subtext {
+    text-align: center;
+    margin: 0 16px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    max-width: 200px;
+}
+
+.quote-container {
+    padding-top: 70px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    width: 550px;
+}
+
+.signature {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    padding-right: 145px;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.cta-section {
+    background-color: white;
+    margin: 50px;
+    display: flex;
+}
+
+.cta-container-left {
+    background-color: purple;
+    padding: 50px;
+}
+
+.cta-container-right {
+    background-color: pink;
+    padding: 50px;
+}
+
+.cta-container-right.button {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    background: #3882F6;
+    color: white;
+    width: 80px;
+    height: 20px;
+    justify-content: space-around;
+  }
