@@ -150,12 +150,10 @@ button:hover {
 
 .box-subtext {
     text-align: center;
-    margin: 0 16px;
+    margin: 0 17px;
     width: 100px;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
-    gap: 52px;
     max-width: 200px;
 }
 
