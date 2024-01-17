@@ -5,10 +5,12 @@
 }
 
 body {
-    margin: 0 100px;  
     display: flex;
     flex-direction: column;
     min-width: 800px;
+    max-width: 960px;
+    align-content: center;
+    margin: auto;
 }
 
 .header {
