@@ -108,7 +108,8 @@ button:hover {
 .information-header {
     font-size: 30px;
     text-align: center;
-    padding-top: 48px
+    padding-top: 48px;
+    font-weight: bold;
 }
 
 .information {
